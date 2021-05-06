@@ -72,21 +72,30 @@ ul{
 
 .showcase video{
    width: 100%;
+  height: 685px;
     
+}
+
+.cont{
+    width: 90%;
+    margin: auto;
+    background-color:rgba(229, 229, 240, 0.911);
 }
 
 /*este planeta */
 
 .este_planeta{
     display: flex;
+  justify-content: space-between ;
     width: 90%;
-    
     margin: auto;
    border-top: 1px solid rgb(35, 81, 107);
+   margin-bottom: 10px;
    
 }
 .este_planeta div{
-    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .este_planeta-cont{
@@ -98,19 +107,85 @@ ul{
 }
 .este_planeta-img{
     width: 40%;
+    height: 500px;
 }
 
 
-.este_planeta-cont img{
-    width: 20%;
-    height: 100px;
-    margin: 50px 50%;
+.este_planeta-icono{
+    width: 50%;
+    margin: auto;
 
    
 }
 
-.este_planeta-img img{
-    width: 100%;
-    height: 500px;
+.este_planeta-cont p{
+    margin-top: 20px;
+    text-align: justify;
 }
 
+.este_planeta-imagen{
+    width: 90%;
+    height: 500px;
+    margin-right: 0;
+    
+}
+
+/*explora - modelado 3d */
+
+.explora{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.explora div{
+    width: 50%;
+}
+
+.explora-cont{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .explora-logo{
+     width: 50%;
+     margin: auto;
+ }
+
+ .explora-img img{
+     width: 80%;
+     height: 500px;
+ }
+
+ .explora-cont p{
+     text-align: justify;
+     margin-top: 20px;
+ }
+
+ /*materiales*/
+
+ .materiales{
+  margin: 40px auto;
+  width: 90%;
+  text-align: center;
+
+ }
+
+ .materiales h2{
+     margin-bottom: 20px;
+ }
+
+ .mat-cont{
+     display: flex;
+     justify-content: space-between;
+     
+ }
+ .materiales-cont{
+     margin: auto;
+     width: 50%;
+     text-align: justify;
+     
+
+ }
