@@ -19,7 +19,7 @@ ul{
     list-style: none;
 }
 
-h2{
+h2, h3{
     color: lightseagreen;
 }
 
@@ -278,3 +278,77 @@ p{
      margin: auto;
 
  }
+
+ /* contacto */
+
+.aterriza_aqui {
+    background-color: rgb(35, 81, 107);
+    width: 100%;
+    height: auto;
+}
+
+
+
+.aterriza_aqui p{
+    color: white;
+}
+.encabezado_footer{
+    width: 30%;
+    margin: auto;
+}
+.encabezado_footer img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    
+}
+.contact h3{
+    margin: auto;
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    margin: 15px auto;
+}
+
+.contact div{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid lightseagreen;
+}
+
+.redes_sociales{
+    text-align: center;
+}
+.redes_sociales a{
+    color: aquamarine;
+}
+.redes_sociales i{
+    padding: 20px;
+}
+
+.formulario{
+    width: 90%;
+    height: auto;
+}
+.formulario .form{
+    width: 90%;
+}
+.form div, label{
+
+ border: none;
+ margin: 0 auto;
+ padding: 0 auto;
+ font-family: 'Signika', sans-serif;
+ color:lightseagreen;
+}
