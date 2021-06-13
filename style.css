@@ -51,11 +51,18 @@ p{
 .container-nav-brand{
   min-width: 320px;
 }
-
+.nav-menu-all{
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    width: 100%;
+    align-items: center;
+}
 .container .nav-menu{
     display: flex;
     flex-direction: column;
     min-width: 320px;
+    width: 90%;
 }
 /* nav left */
 .container-nav ul{
@@ -74,20 +81,33 @@ p{
     background-color: rgb(35, 81, 107) ;
 }
 
+.cotiza:hover {
+    color: lightseagreen;
+    background-color: rgb(35, 81, 107) ;
+}
+
+.cotiza i{
+    margin: 0 5px;
+}
 .container-nav ul.nav-menu{
     flex: 1;
    
 }
 
-.nav-menu-right li{
+/* nav menu right */
+.nav-menu-right{
+    flex-direction: column;
+    width: 90%;
     min-width: 320px;
+    font-family:'Signika', sans-serif; 
 }
+
 
 /*showcase*/
 .showcase{
     overflow: hidden;
     min-width: 320px;
-    margin: 10px auto;
+    margin: 10px 0;
 
 }
 
@@ -137,6 +157,8 @@ p{
     width: 100%;
     height: auto;
     margin: 10px auto;
+    display: flex;
+    align-items: center;
 }
 
 .este_planeta-icono{
@@ -193,6 +215,8 @@ p{
     width: 100%;
     height: auto;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
  /*materiales*/
@@ -201,6 +225,7 @@ p{
   margin: 40px auto;
   width: 90%;
   text-align: center;
+  position: relative;
 
  }
 
@@ -210,13 +235,35 @@ p{
      margin-top: 10px;
  }
 
+ .materiales .left{
+    position: absolute;
+    top: 50%;
+    left:5px ;
+    color: aquamarine;
+    opacity: 70%;
+}
+
+.materiales .right{
+    position: absolute;
+    top: 50%;
+    right:5px ;
+    color: aquamarine;
+    opacity: 70%;
+}
+
+.materiales i:hover{
+    color:rgb(35, 81, 107) ;
+}
+
  .mat-cont{
      display: flex;
      overflow-x: scroll;
      overscroll-behavior-x: contain;
      scroll-snap-type: x proximity;
+   
   
  }
+ 
  .materiales-cont{
      scroll-snap-align: center;
      margin: 10px 5px;
@@ -244,6 +291,7 @@ p{
   margin: 40px auto;
   width: 90%;
   text-align: center;
+  position: relative;
 
  }
 
@@ -252,7 +300,25 @@ p{
      text-align: center;
      margin-top: 10px;
  }
+ .por_ti .left{
+    position: absolute;
+    top: 50%;
+    left:5px ;
+    color: aquamarine;
+    opacity: 70%;
+}
 
+.por_ti .right{
+    position: absolute;
+    top: 50%;
+    right:5px ;
+    color: aquamarine;
+    opacity: 70%;
+}
+
+.por_ti i:hover{
+    color:rgb(35, 81, 107) ;
+}
  .por_ti-cont{
      display: flex;
      overflow-x: scroll;
@@ -352,3 +418,76 @@ p{
  font-family: 'Signika', sans-serif;
  color:lightseagreen;
 }
+
+.form div{
+    display: flex;
+    flex-direction: column;
+}
+ .form{
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+ }
+
+ .form ::placeholder{
+     color:rgb(35, 81, 107);
+     font-family: 'Signika', sans-serif;
+     opacity: 50%;
+ }
+
+ .enviar{
+     display: flex;
+     flex-direction: row;
+     margin: auto;
+     align-items: center;
+
+ }
+
+ .btn_enviar{
+     padding: 6px;
+     font-family: 'Signika', sans-serif;
+     font-weight: 1000;
+     color: rgb(35, 81, 107);
+     background-color: lightseagreen;
+     border:none;
+     border-radius: 5px;
+     box-shadow: -2px 1px 5px lightseagreen ;
+     max-width: 300px;
+
+ }
+
+ .btn_enviar:hover{
+    color: lightseagreen;
+    background-color: rgb(35, 81, 107);
+ }
+ .appWhatsapp{
+     color: black;
+     position: sticky;
+     z-index: 1;
+     left: 83%;
+     bottom: 50px;
+     color: white;
+     
+ }
+
+ .appWhatsapp i{
+     background-color: green;
+     padding: 8px;
+     border-radius: 58%
+ }
+
+ .appWhatsapp i:hover{
+     color: green;
+     background-color: white;
+ }
+
+ /*pie */
+
+ .pie{
+     text-align: center;
+     font-size: 14px;
+     font-weight: 600;
+     color: gray;
+     font-style: italic;
+     opacity: 40%;
+ }
